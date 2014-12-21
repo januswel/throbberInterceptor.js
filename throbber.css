@@ -1,0 +1,21 @@
+/*
+ * throbber.css
+ * */
+
+.throbber-backdrop {
+    z-index: 2000;
+    position: absolute;
+
+    background-color: black;
+
+    opacity: .1;
+}
+
+.throbber-base-absolute {
+    z-index: 2010;
+    position: absolute;
+}
+.throbber-base-fixed {
+    z-index: 2010;
+    position: fixed;
+}

@@ -1,0 +1,25 @@
+/*
+ * main.css
+ * */
+
+.spacer01 {
+    height: 200px;
+    background-color: yellow;
+    padding: 50px;
+    margin: 50px;
+}
+
+.spacer02 {
+    height: 500px;
+    background-color: green;
+}
+
+.success {
+    background-color: blue;
+    color: white;
+}
+
+.error {
+    background-color: red;
+    color: white;
+}
