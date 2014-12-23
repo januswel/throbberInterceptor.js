@@ -3,7 +3,8 @@
  * */
 
 .spacer01 {
-    height: 200px;
+    height: 100px;
+    width: 100px;
     background-color: yellow;
     padding: 50px;
     margin: 50px;
