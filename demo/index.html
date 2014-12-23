@@ -7,17 +7,21 @@
   <meta name="description" content="AngularJS throbber demo">
 
   <link rel="stylesheet" href="../throbber.css" media="all">
-  <link rel="stylesheet" href="main.css" media="all">
+  <link rel="stylesheet" href="styles/main.css" media="all">
 
-  <script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js"></script>
-  <script src="http://fgnass.github.io/spin.js/spin.min.js"></script>
+  <script src="scripts/lib/angular.min.js"></script>
+  <script src="scripts/lib/angular-resource.min.js"></script>
+  <script src="scripts/lib/spin.min.js"></script>
   <script src="../throbber.js"></script>
-  <script src="main.js"></script>
+  <script src="scripts/main.js"></script>
 
   <title>AngularJS throbber</title>
 </head>
 
 <body ng-controller="demo-controller as demo">
+  <button ng-click="demo.http()">window with $http</button>
+  <button ng-click="demo.httpWithConfig()">element with $http</button>
+  <button ng-click="demo.resource()">with $resource</button>
   <div class="{{demo.status}}">
     <div>{{demo.data.data}}</div>
     <div>{{demo.data.status}}</div>
